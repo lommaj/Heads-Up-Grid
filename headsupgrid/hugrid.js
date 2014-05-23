@@ -47,7 +47,7 @@
     hugridDiv.appendChild(leftDiv);
 
     /* Create Columns */
-    for (var i = 0; i < (columns - 1); i++) {
+    for (i = 0; i < (columns - 1); i++) {
       colDiv = document.createElement("div");
       colDiv.className = "hugcol";
       hugridDiv.appendChild(colDiv);
@@ -146,9 +146,9 @@ function initialCleanUp() {
       $('#hugrid').toggle();
       $('#hugridRows').toggle();
       $("#hugridButton span").toggle();
-      window.hugrid.state = 'off'
+      window.hugrid.state = 'off';
     } else {
-      window.hugrid.state = 'on'
+      window.hugrid.state = 'on';
     }
   } ;
 
